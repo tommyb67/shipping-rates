@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'active_shipping', '~> 0.12.4'
 
+gem 'figaro', '~> 0.7.0'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

@@ -1,6 +1,8 @@
 ShippingRates::Application.routes.draw do
   resources :shipments
 
+  root to: "shipments#index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
